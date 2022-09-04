@@ -1,5 +1,4 @@
 using DriverShcool.Infrastructure;
-
 var builder = WebApplication.CreateBuilder(args);
 builder.Configure();
 var app = builder.Build();
