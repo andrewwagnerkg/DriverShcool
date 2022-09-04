@@ -4,6 +4,7 @@
     {
         public static void Configure(this WebApplicationBuilder builder)
         {
+            builder.Services.AddControllersWithViews();
         }
     }
 }
