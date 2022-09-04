@@ -4,9 +4,9 @@ namespace DriverShcool.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "it works";
+            return View();
         }
     }
 }

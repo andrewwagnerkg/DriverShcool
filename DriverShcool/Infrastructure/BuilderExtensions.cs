@@ -4,7 +4,10 @@
     {
         public static void Configure(this WebApplicationBuilder builder)
         {
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddMvc(options =>
+            {
+                options.EnableEndpointRouting = false;
+            });
         }
     }
 }
